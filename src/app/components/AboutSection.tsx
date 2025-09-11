@@ -43,7 +43,7 @@ export default function AboutSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg text-gray-300"
           >
-            I&apos; <span className="text-cyan-400 font-semibold">Sunil Sharma</span> — a full-stack
+            I am <span className="text-cyan-400 font-semibold">Sunil Sharma</span> — a full-stack
             developer focused on building scalable, performant, and visually engaging web applications.  
             From crafting seamless user interfaces to integrating AI/ML features, CI/CD pipelines, and cloud deployments,  
             I turn complex problems into elegant solutions while keeping code maintainable and robust.

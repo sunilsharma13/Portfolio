@@ -35,7 +35,7 @@ export default function HeroSection() {
         transition={{ duration: 1, delay: 1 }}
         className="text-base sm:text-lg md:text-xl mt-6 max-w-xs sm:max-w-lg md:max-w-3xl text-gray-300"
       >
-        I&apos; <span className="text-cyan-400 font-semibold">Sunil Sharma</span> — a full-stack
+        I am <span className="text-cyan-400 font-semibold">Sunil Sharma</span> — a full-stack
         developer turning pixels into motion, configs into clarity, and ideas into immersive digital experiences.
         Passionate about React, Next.js, Tailwind, AI/ML, and building smarter interactive web products.
       </motion.p>
