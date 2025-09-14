@@ -38,6 +38,27 @@ export default function ProjectsSection() {
       ]
     },
     {
+      title: "ChiyaTech Solutions",
+      tech: "Next.js · TailwindCSS · React.js  · Vercel",
+      description:
+        "A cinematic portfolio and company site built to showcase bold branding, magnetic UI, and expressive animations.",
+      link: "https://chiyatech.in",
+      featured: true,
+      role: "Founder · Designer · Developer",
+      features: [
+        "Cinematic scroll animations with GSAP",
+        "Magnetic buttons and branded icons",
+        "Modular component architecture",
+        "Responsive layout with TailwindCSS",
+        "Deployed on Vercel with custom domain"
+      ],
+      challenges: [
+        "Balancing animation with performance",
+        "Ensuring pixel-perfect branding across devices",
+        "Optimizing for SEO and fast load times"
+      ]
+    },
+    {
       title: "Knowledge Hub",
       tech: "React · Node.js · Socket.io · MongoDB",
       description:
@@ -69,22 +90,7 @@ export default function ProjectsSection() {
         "Handling cart state across pages"
       ]
     },
-    {
-      title: "DevToolkit",
-      tech: "React · Vite · TypeScript · Tailwind",
-      description:
-        "A developer utility suite to automate workflows, clean configs, and speed up project setup.",
-      role: "Solo builder",
-      features: [
-        "Config cleaner for Tailwind & ESLint",
-        "Project scaffolding templates",
-        "Responsive dashboard UI"
-      ],
-      challenges: [
-        "Making tools modular and reusable",
-        "Balancing speed with flexibility"
-      ]
-    },
+        
   ];
 
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
